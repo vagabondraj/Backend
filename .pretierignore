@@ -1,0 +1,46 @@
+*.env
+.env
+.env.sample
+*.env.sample
+/.vscode
+/node modules
+
+
+# Node modules and dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build or dist output
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+
+# Environment and config files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Git and Docker
+.git/
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Compiled / generated files
+public/
+out/
+*.min.js
+*.bundle.js
+*.map
+
+# Other tools
+.prettierignore
+.eslintcache
