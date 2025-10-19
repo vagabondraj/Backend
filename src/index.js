@@ -34,6 +34,12 @@ app.get("/", (req, res) => {
   }
 })();
 
+// steps we follow
+// 1. Create an Express application.
+// 2. Define middleware and routes.
+// 3. Use an async IIFE to connect to the database and start the server.
+// 4. Ensure the server starts only after a successful DB connection.
+
 
 
 // below is the first method to connect database and server

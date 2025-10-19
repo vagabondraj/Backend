@@ -15,3 +15,14 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
+
+// steps to connect database and server
+// 1. Create a separate file for database connection (db/index.js).
+// 2. Define the connection logic in a function and export it.
+// 3. Import and call this function in the main server file (index.js) before starting the server.
+// 4. Start the server only if the database connection is successful.
+// 5. Handle errors appropriately to avoid starting the server without a database connection.
+// src/index.js
+
+// more detailed method to connect database and server
